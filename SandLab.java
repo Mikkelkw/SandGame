@@ -229,19 +229,9 @@ public class SandLab
     else if (rand.nextInt(2) == 1 && randomC < grid[0].length -1 && randomC<grid.length &&grid[randomR][randomC]==GASS && grid[randomR][randomC+1]== WATER)
     {
     	grid[randomR][randomC]=EMPTY;
-    }
-    //Clear
-   
-    
-   
-    
-    
-    //remember that you need to watch for the edges of the array
-    
-    
+    }    
   }
   
-  //do not modify this method!
   public void run()
   {
     while (true) // infinite loop
